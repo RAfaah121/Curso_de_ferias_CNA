@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Voltar</a>
+            <a href="">Game 2</a>
+            <a href="">Game 3</a>
+            <a href="">Game 4</a>
+            <button id="modo" onclick="tema()"></button>
+            <a href="" id="atual">Claro</a>
+        </nav>
+    </header>
+    <main>
+        <div class="produto">
+        <h1>Jokenpo</h1>
+        <p>Você tem cerca de 30% de chance de ganhar</p>
+        <div>
+            <button onclick="jogar('pedra')">Pedra</button>
+            <button onclick="jogar('papel')">Papel</button>
+            <button onclick="jogar('tesoura')">Tesoura</button>
+        </div>
+        <ul>
+            <li>Pedra quebra Tesoura</li>
+            <li>Papel cobre Pedra</li>
+            <li>Tesoura corta Papel</li>
+        </ul>
+        <div class="conteiner">
+            <img src="" alt="" id="player" class="resultados">
+            <img src="jokenpo.webp" alt="grsbhgfdefg" id="computer" class="resultados">
+            
+        </div>
+        <h2 id="resultado"> </h2>
+    </div>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>

@@ -61,3 +61,24 @@ button:active{
 #atual {
     margin: 10px 10px 0px 0px;
 }
+
+@media (max-width: 768px) {
+
+    nav {
+        margin: 0px;
+    }
+
+    .resultados{
+        height: 150px;
+    }
+
+    #fortnite{
+        height: 270px;
+    }
+
+    button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
